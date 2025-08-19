@@ -12,10 +12,11 @@
 <body>
   <div class="container">
     <h1>Weather App</h1>
+    <h1>DEVELOPED BY MERIA AND NAFISA</h1>
 
     <div id="auth-section">
       <div id="register">
-        <h2>Register</h2>
+        <h2>Register now</h2>
         <input type="email" id="registerEmail" placeholder="Email">
         <input type="password" id="registerPassword" placeholder="Password">
         <button onclick="register()">Register</button>
@@ -36,8 +37,10 @@
 
     <div id="weather-section" style="display: none">
       <input type="text" id="cityInput" placeholder="Enter city name">
-      <button onclick="getWeather()">Get Weather</button>
+      <button onclick="getWeather()">Get Current Weather</button>
+      <button onclick="getForecast()">Get 5-Day Forecast</button>
       <div id="weatherResult"></div>
+      <div id="forecastResult"></div>
     </div>
   </div>
 </body>
